@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINKTREE</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<style>
+body {
+    background: #020024;
+background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(1, 1, 48, 1) 55%, rgba(0, 98, 117, 1) 100%);
+font-family: 'Poppins', sans-serif;
+background-image: url(https://asset.kompas.com/crops/PZkNa1XEcC9huIv3Gd1tHebvzIA=/0x0:780x520/1200x800/data/photo/2023/07/25/64bf6a78dfe73.jpg);
+background-size: cover;
+}
+
+.container{
+width: 500px;
+height:1056px;
+border : 2px solid rgba(225,225,225,0.18);
+margin:auto;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+box-shadow: 0px 0px 0px rgba(227,228,237,0.37);
+backdrop-filter:blur(30px);
+}
+
+.logoupluad {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.judul{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+
+.pngmutu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+.menu1{
+color: white;
+text-align: center;
+border: 2px solid white;
+border-radius: 50px;
+width:450px;
+margin:auto;
+cursor: pointer;
+display: flex;
+justify-content: space-between;
+transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu1 h3{
+  margin-left: 40px;
+
+}
+
+.dots{
+    margin-right: 30px;
+}
+
+.menu1 img{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    justify-content: space-between;
+
+}
+
+
+
+.menu1 h3{
+  text-align: center;
+  padding-right: 50px;
+}
+
+
+
+
+
+.menu1:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.logologo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.logologo img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.footer {
+    
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    border-radius: 200px;
+    width: 350px;
+    height: 50px;
+    box-shadow: 0 0 15px rgba(2, 0, 36, 1);
+}
+
+.footer h3{
+    padding-top: 10px;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+.akhir {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+</style>
+</head>
+<body>
+
+    
+
+    
+    <div class="container">
+
+        <div class="logoupluad">
+        <a href="https://www.wikipedia.org/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEX///8AAABNTU3p6em1tbVRUVGrq6vd3d3e3t77+/tXV1fa2trNzc0YGBgfHx81NTXw8PDExMRlZWW8vLyFhYUvLy92dnZERESdnZ1bW1vz8/NycnIPDw9tbW3l5eWwsLA8PDwpKSkjIyMVq0aKAAADqklEQVR4nO3da1PiQBCF4YkBuQoCooguqP//R64upWYmk0sn2z2c1Hm+sVSq5y0Fb5lZ54iIiIiIiIiIiIiIiIiIiIiIiIgq5JvRJk+9CEWTcfZlPEm9EC3n7Ns59VJ03Ga/blMvRkMxcJCJfuAAE8PAwSWWAweWGAscVGI8cECJVYGDSawOHEhiXeAgEusDB5DYFAif2BwIntgmEDqxXSBwYttA2MT2gaCJkkDIRFkgYKI0EC5RHgiW2CUQKjEWuNp7D/cr5MToR/A09x7OT8AfxWjgwt14j2/cAjYxGjhxpUI3AU2MBk5dpNBNIRMrAyOFkIlVn6IuWgj4ibqJrXhxeS5WGH+72aQLaHRXHRgvjCbepVp+s11kuT9/DY0XRj9Rd2mW38JjTWBVYSzxMcXiWxnXBFYWRhLH9ktvaR4udVF4srKw/FqcWy+8tYeawJrCUuKD7bIFljWBdYVh4tJy0TJPxXUG95TUFfqvxSe7BYvl1YH1hV7iVd9SNP3+mr+ahk/VF7rp94/Ed6Urr8vssP5c5fowKz3TUFhz5dW5z+9j/9xUWH0lihaF4FiIj4X4WIiPhfhYiI+F+FiIj4X4WIiPhfhYiI+F+FiIj4X4WIiPhfhYiI+F+FiIj4X4oArvN6ON+P6snoWdZnY0udzs/Cy8h7BX4fT531Vzk3PQfs8kG4mu61M4+rnO4By04rYY0d3KPQqLd1frb6gp7v0UbW7pUVjcirOSLVdu5K1Tsrmle6G/FUf22pDzt8VINrd0L+w+swt/W4xk60f3Qn+jivaGmnHnacFOZ5OZXXSf5m+okWyLQSn0N9RIvtCgFHobakTbYmAKixtqRNtiYAp/t8WUN9SozZTrNW12+DocYy/dFgNU+OmYH81nXvO0FDNZiD+ThfgzWYg/k4X4M1mIP5OF+DOHX+j/xmytPO1i7c3UPrxm603LlKdd+CO3ytOCQ3YszqwKztfSPp4nOHLuXXncl3d/pPaBdeGBRy/K85x7CSYumi/pZfYaDNzKf+8icQxe+Nmr+ukuf7LQw/KU6zgtw7O1suyPdmD8aERDBocqfiQN/NAPLNypkILJ/9i2b16Hmr1FYHjunCmjs+rKb3BWzI4bvGleiwq7m+Fm6+bVKFgbHuV2fEsQ+Kb73VMo/GZKn/ZPTSUH48CDdaBzueWHcZvmPMyFVeNW+yemasezfuT2bPsOU5YvdyMtu+VVn9ZKRERERERERERERERERERERERE/91fq2UnrlYpI/sAAAAASUVORK5CYII=" alt="Profile Picture"style="width:50px; height: 50px; border-radius: 100%; "></a>
+        <a href="https://www.wikipedia.org/"><img src="https://t3.ftcdn.net/jpg/12/72/29/36/360_F_1272293651_wONF4xKYa8G9Zu1FrWqbM4M9RdfTF3Xx.jpg" alt="Profile Picture" style="width:50px; height: 50px; border-radius: 100%;"></a>
+        </div>
+
+        <div class="pngmutu">
+            <img src="https://ugc.production.linktr.ee/23a7578a-4824-40d9-992f-0936ac4ad891_Logo-SMK-MD.png?io=true&size=avatar-v3_0" style="width: 150px; height: 150px;">
+
+        </div>
+
+
+        <div class="judul">
+            <h2>SMK MUTU CIKAMPEK</h2>
+            <p3>Jl. Raya Parakan, Cikampek Utara, Kec. Kota Baru, 
+                <br>Kab.Karawang, Jawa Barat 41373</p3> </div>
+
+         <br>
+       
+                 <div class="menu1">
+            <img src="https://www.svgrepo.com/show/521691/google-chrome.svg" style="width: 40px;" alt="tiktok">
+            <a href="https://www.tiktok.com/@smkmutucikampek"><h3>Google Form</h3></a>
+           <div class="dots"> <img src="https://www.svgrepo.com/show/506723/menu-vertical.svg" style="width: 20px;"></div>
+       </div>
+<br>
+         <div class="menu1">
+            <img src="https://www.svgrepo.com/show/473806/tiktok.svg" style="width: 38px;" alt="tiktok">
+            <a href="https://www.tiktok.com/@smkmutucikampek"><h3>Tiktok</h3></a>
+           <div class="dots"> <img src="https://www.svgrepo.com/show/506723/menu-vertical.svg" style="width: 20px;"></div>
+       </div>
+
+<br>
+      <div class="menu1">
+    <img src="https://www.svgrepo.com/show/520798/instagram.svg" style="width: 55px;">
+           
+            <a href="https://www.tiktok.com/@smkmutucikampek"><h3>instagram</h3></a>
+           <div class="dots"> <img src="https://www.svgrepo.com/show/506723/menu-vertical.svg" style="width: 20px;"></div>
+       </div>
+<br>
+
+<div class=logologo>
+      <a href="https://www.facebook.com/smkmutucikampek/?locale=id_ID"><img src="https://www.svgrepo.com/show/512120/facebook-176.svg" style="width: 35px;"></a>
+    <img src="https://www.svgrepo.com/show/520798/instagram.svg" style="width: 55px;">
+    <img src="https://www.svgrepo.com/show/473806/tiktok.svg" style="width: 40px;">
+    <img src="https://www.svgrepo.com/show/513089/youtube-168.svg" style="width: 40px;">
+    <img src="https://www.svgrepo.com/show/491226/email.svg" style="width: 50px;">
+</div>
+
+<br>
+
+<div class="footer">
+
+    <h3>Join Smk Mutu On Linktree</h3>
+</div>
+      
+    <div class="akhir">
+        <p><a href="https://support.google.com/accounts/answer/61416?hl=en&co=GENIE.Platform%3DAndroid">Cookie Preferences</a>
+        <li><a href="https://linktr.ee/s/about/trust-center/report?field86145911=https%3A%2F%2Flinktr.ee%2Fsmkmutucikampek">report</a></li>
+        <li><a href="https://linktr.ee/s/privacy">privacy</a></li></p>
+    </div>
+            </div>
+
+          
+</body> 
+</html>
